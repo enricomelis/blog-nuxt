@@ -1,0 +1,14 @@
+node_modules
+dist
+.output
+.nuxt
+.nitro
+.cache
+.env.*
+!.env.example
+coverage
+*.min.js
+package-lock.json
+bun.lock
+yarn.lock
+pnpm-lock.yaml
