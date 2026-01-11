@@ -53,7 +53,7 @@ export default [
             prettier: pluginPrettier,
         },
         rules: {
-            "prettier/prettier": "error",
+            "prettier/prettier": ["warn", { usePrettierrc: true }],
             "vue/multi-word-component-names": "warn",
             "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
             "@typescript-eslint/no-explicit-any": "error",
