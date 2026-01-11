@@ -32,13 +32,13 @@ const currently_watching = ref("neon genesis evangelion");
             <ul>
                 <li>melis</li>
                 <li>studying cs @ <a href=" https://www.di.unipi.it">unipisa</a></li>
+                <li>tinkerer, gymnast, programmer</li>
                 <li>
-                    i like: music, anime, manga, books, cinema, neuroscience, psychology,
-                    philosophy, physics, literature
-                </li>
-                <li>
-                    i dislike: capitalism, closed-source software, individualism, closed-mindedness,
-                    mindlessness, snob people
+                    <div>i dislike:</div>
+                    <div>
+                        capitalism, closed-source software, individualism, closed-mindedness,
+                        mindlessness, snob people
+                    </div>
                 </li>
                 <li>currently reading: {{ currently_reading }}</li>
                 <li>currently watching: {{ currently_watching }}</li>
